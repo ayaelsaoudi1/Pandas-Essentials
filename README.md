@@ -61,8 +61,32 @@ This repository contains Jupyter Notebooks covering essential **Pandas** functio
 
 ---
 
+### **6️⃣ Merging DataFrames in Pandas**  
+🔗 Learn how to **combine multiple DataFrames** efficiently using Pandas:  
+- **Concatenation** → `pd.concat([df1, df2])` for stacking DataFrames.  
+- **Merging** → `pd.merge(df1, df2, on='key')` for relational joins.  
+- **Types of Joins** → `inner`, `outer`, `left`, `right`.  
+- **Handling duplicate columns** in merges using `suffixes=('_left', '_right')`.  
+- **Joining on multiple keys** for complex merges.  
+
+📄 **Notebook:** [`merging_dataframes.ipynb`](https://github.com/ayaelsaoudi1/Pandas-Essentials/blob/main/5-%20Merging%20DataFrames.ipynb)
+
+---
+
+### **7️⃣ Pandas Visualization**  
+📊 Explore different ways to visualize data using Pandas' built-in plotting functionalities:  
+- **Line plots** → `df.plot(kind='line')` for time-series visualization.  
+- **Bar charts** → Vertical & horizontal bar plots, stacked bars.  
+- **Scatter plots** → Relationship analysis using `df.plot.scatter()`.  
+- **Histograms** → Distribution visualization with `df.plot.hist(bins=20)`.  
+- **Boxplots** → Identifying outliers with `df.boxplot()`.  
+- **Area charts** → Filled plots using `df.plot.area()`.  
+- **Pie charts** → Category distribution using `df.plot.pie(y='column')`.  
+- **Customizing plots** → Setting titles, labels, and Matplotlib styles.  
+
+📄 **Notebook:** [`pandas_visualizations.ipynb`](https://github.com/ayaelsaoudi1/Pandas-Essentials/blob/main/6-%20Pandas%20Visualizations.ipynb)
+
+---
+
 ## 📚 **Resources & Documentation**  
 🔗 Official Pandas Documentation: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)  
-
-
-
