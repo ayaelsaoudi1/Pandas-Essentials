@@ -69,7 +69,7 @@ This repository contains Jupyter Notebooks covering essential **Pandas** functio
 - **Handling duplicate columns** in merges using `suffixes=('_left', '_right')`.  
 - **Joining on multiple keys** for complex merges.  
 
-📄 **Notebook:** [`merging_dataframes.ipynb`](https://github.com/ayaelsaoudi1/Pandas-Essentials/blob/main/5-%20Merging%20DataFrames.ipynb)
+📄 **Notebook:** [`merging_dataframes.ipynb`](https://github.com/ayaelsaoudi1/Pandas-Essentials/blob/main/5-%20Merging%20DataFrames%20in%20Pandas.ipynb)
 
 ---
 
@@ -84,7 +84,7 @@ This repository contains Jupyter Notebooks covering essential **Pandas** functio
 - **Pie charts** → Category distribution using `df.plot.pie(y='column')`.  
 - **Customizing plots** → Setting titles, labels, and Matplotlib styles.  
 
-📄 **Notebook:** [`pandas_visualizations.ipynb`](https://github.com/ayaelsaoudi1/Pandas-Essentials/blob/main/6-%20Pandas%20Visualizations.ipynb)
+📄 **Notebook:** [`pandas_visualizations.ipynb`](https://github.com/ayaelsaoudi1/Pandas-Essentials/blob/main/6-%20Pandas%20Visualization.ipynb)
 
 ---
 
